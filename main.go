@@ -56,7 +56,7 @@ func initConnection() error {
 	return nil
 }
 
-func process(inputDir string, outputDir string, service Service) error {
+func Process(inputDir string, outputDir string, service Service) error {
 	if err := initConnection(); err != nil {
 		return err
 	}
