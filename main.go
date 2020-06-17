@@ -1,4 +1,4 @@
-package grobid-sdk
+package grobid
 
 import (
 	"errors"
