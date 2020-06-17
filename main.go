@@ -56,6 +56,7 @@ func initConnection() error {
 	return nil
 }
 
+// Process all pdf in inputdir with the specified service
 func Process(inputDir string, outputDir string, service Service) error {
 	if err := initConnection(); err != nil {
 		return err
